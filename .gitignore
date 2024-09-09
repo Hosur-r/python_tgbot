@@ -1,0 +1,27 @@
+#cached files
+__pycache__/
+.idea/
+.*_cache/
+
+#works files
+*.sqlite3
+.env
+.env.db
+requirements.txt
+grafana/
+minio/
+pgdata/
+parser_data/
+templates/
+logs/
+celerybeat-schedule
+
+#all static
+/static
+/media
+/venv
+/data
+.log
+chunked_uploads/
+celerybeat-schedule
+.python-version
